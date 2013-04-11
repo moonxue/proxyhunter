@@ -1,0 +1,20 @@
+这是一段用来从http://www.cnproxy.com/批量获取免费代理服务器的脚本
+很小巧但是实用，遗憾的是在这个最初版本还没加入测速功能，也没有提供命令行指令。
+
+proxylist.txt 存放全部代理
+availablelist.txt 存放可用的代理
+getproxylist.py 从目标网站上爬取的全部代理
+checkproxy.py 经过测试后可用的代理
+
+————————————————————————————————————————————————————————
+config.ini 配置文件说明
+
+timeout 测试代理时的最大等待时间
+isPrint 是否在屏幕上输出信息
+isRewrite 是否重写availablelist.txt文件
+testlist 测试代理用的网址或IP，用‘|’符号分割
+
+————————————————————————————————————————————————————————
+第三方模块依赖
+ConfigParser
+requests
