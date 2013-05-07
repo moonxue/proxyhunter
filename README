@@ -7,6 +7,9 @@ availablelist.txt 存放可用的代理
 getproxylist.py 从目标网站上爬取的全部代理
 checkproxy.py 经过测试后可用的代理
 
+使用流程，先运行getproxylist.py，此时结果被保存到proxylist.txt
+再运行checkproxy.py，此时结果被保存到availablelist.txt，
+直接使用availablelist.txt即可。
 ————————————————————————————————————————————————————————
 config.ini 配置文件说明
 
